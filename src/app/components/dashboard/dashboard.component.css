@@ -1,0 +1,22 @@
+.example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+.zoom{
+  transition: transform .5s;
+}
+
+.zoom:hover{
+  transform: scale(1.5);
+
+}
+mat-grid-tile{
+  transition: transform .5s;
+}
+mat-grid-tile:hover{
+  transform: scale(1.1);
+}
