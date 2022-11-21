@@ -1,0 +1,75 @@
+.main{
+  background: linear-gradient(70deg, #801DCD, #4388B0,#33BEAE,#201925);
+}
+
+
+.example-card {
+    max-width: 400px;
+    height: 90%;
+    margin-top: 30px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+.profile{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: #2ECC71;
+  background-image: url('https://scontent.fbog15-1.fna.fbcdn.net/v/t39.30808-6/296835479_1233702734048271_707352019976649705_n.jpg?stp=dst-jpg_p206x206&_nc_cat=104&ccb=1-7&_nc_sid=da31f3&_nc_ohc=ZlUs3T5If6AAX-_qBoQ&_nc_ht=scontent.fbog15-1.fna&oh=00_AT_S1R47FnPfgqdiFqCYFj5qyAi2NaJjP0hVxQiuEVjiSQ&oe=633ABC1D');
+}
+
+mat-card-image, img{
+  width: 100%;
+  height: 30%;
+  margin-left: 1%;
+}
+
+/* From uiverse.io by @joe-watson-sbf */
+.card {
+  width: 90%;
+  height: 100%;
+  border-radius: 4px;
+  background: #212121;
+  display: flex;
+  gap: 5px;
+  padding: .4em;
+}
+
+.card p {
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all .5s;
+  background: #212121;
+  border: 1px solid #801ca4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card p:hover {
+  flex: 14;
+}
+
+.card p span {
+  min-width: 14em;
+  padding: .5em;
+  text-align: center;
+  transform: rotate(-90deg);
+  transition: all .5s;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: .1em;
+}
+
+.card p:hover span {
+  transform: rotate(0);
+}

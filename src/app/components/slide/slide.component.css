@@ -1,0 +1,11 @@
+.swiper {
+    width: 80%;
+    height: 400px;
+  }
+  ng-template:hover, swiperSlide:hover{
+      transform: scale(1.1);
+  }
+
+  ng-template, swiperSlide{
+      transition: transform .5s;
+  }

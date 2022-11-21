@@ -1,0 +1,24 @@
+<mat-grid-list cols="4" rowHeight="50%">
+  
+    <mat-grid-tile style="background-image: url('../../../assets/images/f1.jpg');"
+      [colspan]="tiles[0].cols"
+      [rowspan]="tiles[0].rows"
+      [routerLink]="tiles[0].text">
+      <app-home-info></app-home-info>
+    </mat-grid-tile>
+  
+    <mat-grid-tile style="background-image: url('../../../assets/images/f3.jpg');"
+      [colspan]="tiles[1].cols"
+      [rowspan]="tiles[1].rows"
+      [routerLink]="tiles[1].text">
+      <app-carrousel></app-carrousel>
+    </mat-grid-tile>
+    
+    <mat-grid-tile style="background-image: url('../../../assets/images/f2.png');"
+      [colspan]="tiles[2].cols"
+      [rowspan]="tiles[2].rows"
+      [routerLink]="tiles[2].text">
+      <app-home-history></app-home-history>
+    </mat-grid-tile>
+    
+  </mat-grid-list>
